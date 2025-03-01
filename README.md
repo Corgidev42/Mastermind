@@ -1,10 +1,11 @@
 # 🧩 Binary Code Guessing Game
 
 ## 📌 Description
+
 This project is a simple **binary code guessing game** written in **C**. It involves two players:
 
-- **Player 1**: Chooses a secret 4-bit binary code (e.g., "0110").
-- **Player 2**: Tries to guess Player 1's code.
+-   **Player 1**: Chooses a secret 4-bit binary code (e.g., "0110").
+-   **Player 2**: Tries to guess Player 1's code.
 
 After each guess, the program indicates how many positions contain **the digit '1' in both codes**. The game continues until **Player 2 guesses the exact code**.
 
@@ -12,21 +13,23 @@ After each guess, the program indicates how many positions contain **the digit '
 
 ## 🎮 Features
 
-- 🧑‍💻 **Two-player mode:** One player sets the code, and the other guesses it.
-- 🔄 **Feedback system:** Shows the number of correct '1' positions.
-- 🧪 **Input validation:** Ensures input consists of exactly **4 characters (0 or 1)**.
-- 💻 **Error handling:** Handles memory allocation failures.
+-   🧑‍💻 **Two-player mode:** One player sets the code, and the other guesses it.
+-   🔄 **Feedback system:** Shows the number of correct '1' positions.
+-   🧪 **Input validation:** Ensures input consists of exactly **4 characters (0 or 1)**.
+-   💻 **Error handling:** Handles memory allocation failures.
 
 ---
 
 ## 🛠 Compilation and Execution
 
 ### 🔧 **Compilation**
+
 ```sh
 gcc binary_game.c -o binary_game
 ```
 
 ### ▶️ **Execution**
+
 ```sh
 ./binary_game
 ```
@@ -34,6 +37,7 @@ gcc binary_game.c -o binary_game
 ---
 
 ## 🔄 **Gameplay Flow:**
+
 1. **Player 1** enters a 4-bit binary code (e.g., "0110").
 2. The input is hidden by printing several empty lines.
 3. **Player 2** repeatedly guesses the 4-bit code.
@@ -43,6 +47,7 @@ gcc binary_game.c -o binary_game
 ---
 
 ## 💡 Example Run
+
 ```
 ____
 Player 1, À toi de jouer !
@@ -60,6 +65,7 @@ You win!
 ---
 
 ## 💂‍💻 Project Structure
+
 ```
 BinaryGuessingGame/
 ├── binary_game.c
@@ -69,11 +75,12 @@ BinaryGuessingGame/
 ---
 
 ## 💜 Author
-- **vbonnard** (<vbonnard@student.42.fr>)
-- **ezeppa**   (<ezeppa@student.42.fr>)
+
+-   **vbonnard** (<vbonnard@student.42perpignan.fr>)
+-   **ezeppa** (<ezeppa@student.42perpignan.fr>)
 
 ---
 
 ## 📌 Note
-This project was developed as part of **42 School**. Feel free to contribute or report any issues you encounter! 🚀
 
+This project was developed as part of **42 School**. Feel free to contribute or report any issues you encounter! 🚀
