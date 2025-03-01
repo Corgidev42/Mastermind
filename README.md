@@ -77,10 +77,9 @@ BinaryGuessingGame/
 ## 💜 Author
 
 -   **vbonnard** (<vbonnard@student.42perpignan.fr>)
--   **ezeppa** (<ezeppa@student.42perpignan.fr>)
 
 ---
 
 ## 📌 Note
 
-This project was developed as part of **42 School**. Feel free to contribute or report any issues you encounter! 🚀
+This project was developed in parallel of **42 School**. Feel free to contribute or report any issues you encounter! 🚀
